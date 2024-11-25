@@ -21,7 +21,7 @@ struct ConsoleBox {
 
 ConsoleBox *consoleBox = new ConsoleBox; // suponemos que ya está inicializado
 
-void load_script(const char* filename, bool show_script = false) {
+void load_script(const char* filename, bool show_script) {
     string script;
     FILE* f = nullptr;
     try {

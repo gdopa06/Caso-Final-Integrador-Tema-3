@@ -1,4 +1,7 @@
 # ninja log v6
 7	568	7542583561978525	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.cpp.obj	8d0e4eb0f8b2667b
 568	711	7542583567600312	Caso_Final_Integrador_Tema_3.exe	8e38eb0962af5d51
-5	383	7542584374706645	build.ninja	c0d903dfb3e0f726
+5	383	7542592661998400	build.ninja	c0d903dfb3e0f726
+7	115	7542592695255042	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.cpp.obj	8d0e4eb0f8b2667b
+3	510	7542592920873154	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/Funciones/ejecutar.cpp.obj	aad336a6eec97b51
+511	686	7542592925953037	Caso_Final_Integrador_Tema_3.exe	73a212e70345ed17

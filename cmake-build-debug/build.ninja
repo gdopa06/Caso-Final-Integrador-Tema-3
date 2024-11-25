@@ -55,6 +55,12 @@ build CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.cpp.obj: CXX_COMPILER__Ca
   OBJECT_DIR = CMakeFiles\Caso_Final_Integrador_Tema_3.dir
   OBJECT_FILE_DIR = CMakeFiles\Caso_Final_Integrador_Tema_3.dir
 
+build CMakeFiles/Caso_Final_Integrador_Tema_3.dir/Funciones/ejecutar.cpp.obj: CXX_COMPILER__Caso_Final_Integrador_Tema_3_unscanned_Debug C$:/Users/gonza/Documents/GitHub/Caso-Final-Integrador-Tema-3/Funciones/ejecutar.cpp || cmake_object_order_depends_target_Caso_Final_Integrador_Tema_3
+  DEP_FILE = CMakeFiles\Caso_Final_Integrador_Tema_3.dir\Funciones\ejecutar.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Caso_Final_Integrador_Tema_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Caso_Final_Integrador_Tema_3.dir\Funciones
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Caso_Final_Integrador_Tema_3
@@ -63,7 +69,7 @@ build CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.cpp.obj: CXX_COMPILER__Ca
 #############################################
 # Link the executable Caso_Final_Integrador_Tema_3.exe
 
-build Caso_Final_Integrador_Tema_3.exe: CXX_EXECUTABLE_LINKER__Caso_Final_Integrador_Tema_3_Debug CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.cpp.obj
+build Caso_Final_Integrador_Tema_3.exe: CXX_EXECUTABLE_LINKER__Caso_Final_Integrador_Tema_3_Debug CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.cpp.obj CMakeFiles/Caso_Final_Integrador_Tema_3.dir/Funciones/ejecutar.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Caso_Final_Integrador_Tema_3.dir
