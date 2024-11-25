@@ -1,24 +1,58 @@
-# Caso-Final-Integrador-Tema-3
+# Caso-Final-Integrador-Tema-3 - Gonzalo Müller
 
-Carga de Scripts en Tiny-Lisp
-Descripción
+<details>
+  <summary> LINK DEL REPOSITORIO </summary>
+
+Link al repositorio: 
+
+</details>
+
+
+
+<details>
+  <summary> ENUNCIADO </summary>
+
+## Carga de Scripts en Tiny-Lisp
+
 Este proyecto implementa funciones para cargar scripts desde archivos de texto en la memoria y aplicarles coloración sintáctica. Además, maneja errores comunes como archivos inexistentes, problemas de apertura o errores de lectura.
 
-Funciones Implementadas
-void load_script(const char* filename, bool show_script = false)
-Descripción: Carga el contenido de un archivo especificado y, opcionalmente, muestra su contenido en la consola.
-Parámetros:
-filename: Nombre del archivo a cargar.
-show_script: Si es true, muestra el contenido del archivo en la consola.
-Manejo de Errores:
+### Funciones Implementadas:
+
+<code>void load_script(const char* filename, bool show_script = false)</code>
+
+### Descripción:
+Carga el contenido de un archivo especificado y, opcionalmente, muestra su contenido en la consola.
+
+### Parámetros:
+
+<code>filename</code>: Nombre del archivo a cargar.
+
+<code>show_script</code>: Si es true, muestra el contenido del archivo en la consola.
+
+### Manejo de Errores:
 Archivo inexistente.
+
 Problemas de apertura del archivo.
+
 Errores de lectura del archivo.
-void load_script()
-Descripción: Solicita al usuario el nombre de un archivo, llama a load_script(const char* filename, bool show_script = false) y maneja cualquier error de manera apropiada.
-Código
+
+<code>void load_script()</code>
+
+### Descripción:
+Solicita al usuario el nombre de un archivo, llama a load_script(const char* filename, bool show_script = false) y maneja cualquier error de manera apropiada.
+
+</details>
+
+
+</details>
+
+<details>
+  <summary>EJERCICIOS</summary>
+
+## Código en la carpeta <code>Funciones</code>
 
 ```
+#include "ejecutar.h"
 #include <iostream>
 #include <string>
 #include <cstdio>
@@ -37,7 +71,7 @@ struct ConsoleBox {
 
 ConsoleBox *consoleBox = new ConsoleBox; // suponemos que ya está inicializado
 
-void load_script(const char* filename, bool show_script = false) {
+void load_script(const char* filename, bool show_script) {
     string script;
     FILE* f = nullptr;
     try {
@@ -74,29 +108,15 @@ void load_script() {
     scanf("%499s", filename);
     load_script(filename, true);
 }
+```
+## Código en <code>Main</code>
+```
+#include "Funciones/ejecutar.h"
 
 int main() {
     load_script();
     return 0;
 }
 ```
-
-Compilación y Ejecución
-Para compilar y ejecutar el programa en CLion:
-
-Asegúrate de que tu archivo CMakeLists.txt esté configurado correctamente:
-
-cmake_minimum_required(VERSION 3.10)
-project(Caso_Final_Integrador_Tema_3)
-
-set(CMAKE_CXX_STANDARD 17)
-
-add_executable(Caso_Final_Integrador_Tema_3 main.cpp)
-Compila y ejecuta el proyecto desde CLion.
-
-Manejo de Errores
-El código maneja los siguientes errores:
-
-Archivo inexistente: Verifica si el archivo se puede abrir.
-Error de apertura: Muestra un mensaje de error si no se puede abrir el archivo.
-Error de lectura: Muestra un mensaje de error si ocurre un problema durante la lectura.
+Solamente se declara la funcion <code>load_script()</code>
+</details>
