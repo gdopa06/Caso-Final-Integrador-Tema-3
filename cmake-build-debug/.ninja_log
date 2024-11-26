@@ -1,10 +1,10 @@
 # ninja log v6
 7	115	7542592695255042	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.cpp.obj	8d0e4eb0f8b2667b
-511	686	7542592925953037	Caso_Final_Integrador_Tema_3.exe	73a212e70345ed17
-1	257	7543195675769293	build.ninja	c0d903dfb3e0f726
-3	510	7542592920873154	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/Funciones/ejecutar.cpp.obj	aad336a6eec97b51
-1	248	7543195675769293	build.ninja	c0d903dfb3e0f726
-1	88	7543199817867013	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.c.obj	32699f4a8712789d
-2	75	7543201770602308	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.c.obj	32699f4a8712789d
-13	107	7543201770715707	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/Funciones/ejecutar-en-c.c.obj	562225938c3c5242
 108	210	7543201771663760	Caso_Final_Integrador_Tema_3.exe	a2f0b05dd64e79f5
+1	248	7543206539923527	build.ninja	c0d903dfb3e0f726
+13	107	7543201770715707	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/Funciones/ejecutar-en-c.c.obj	562225938c3c5242
+3	510	7542592920873154	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/Funciones/ejecutar.cpp.obj	aad336a6eec97b51
+2	75	7543201770602308	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.c.obj	32699f4a8712789d
+13	141	7543208625363905	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/main.cpp.obj	8d0e4eb0f8b2667b
+2	339	7543208625249634	CMakeFiles/Caso_Final_Integrador_Tema_3.dir/Funciones/ejecutar.cpp.obj	aad336a6eec97b51
+340	457	7543208628636798	Caso_Final_Integrador_Tema_3.exe	67d6153f83b27df

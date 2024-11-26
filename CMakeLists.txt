@@ -4,5 +4,7 @@ project(Caso_Final_Integrador_Tema_3)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Caso_Final_Integrador_Tema_3
-        main.c
-        Funciones/ejecutar-en-c.c)
+        Funciones/ejecutar.h
+        Funciones/ejecutar.cpp
+        main.cpp
+)
