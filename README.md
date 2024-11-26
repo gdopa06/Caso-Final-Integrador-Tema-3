@@ -287,3 +287,5 @@ if (!f) { perror("Error al abrir el archivo"); return; }
 </details>
 
 ![image](https://github.com/user-attachments/assets/019929bd-96b6-40ad-a2af-2c1c7795789b)
+
+
